@@ -1,0 +1,36 @@
+{
+  "name": "express-graphql",
+  "version": "1.0.0",
+  "description": "This is for study purpose",
+  "main": "index.js",
+  "dependencies": {
+    "express-graphql": "^0.12.0",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "standard": "^12.0.1"
+  },
+  "scripts": {
+    "start": "nodemon .",
+    "dev": "node index.js --watch",
+    "debug": "node index.js --debug --watch",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jks0586/expressgraphql.git"
+  },
+  "keywords": [
+    "express",
+    "grapgh",
+    "shop"
+  ],
+  "author": "jitendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jks0586/expressgraphql/issues"
+  },
+  "homepage": "https://github.com/jks0586/expressgraphql#readme"
+}
